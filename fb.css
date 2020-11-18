@@ -1,0 +1,126 @@
+.body
+{
+    margin: 0px;
+}
+.mainbody {
+    width: 1352px;
+    height: 641px;
+    background: yellow;
+}
+.header
+{
+    width:100%;
+    height:22%;
+    background:black;
+}
+.logo {
+    float: left;
+    width: 37%;
+    height: 73%;
+    background: black;
+    text-decoration: none;
+    padding-top: 39px;
+}
+.login {
+    background: black;
+    width: 50%;
+    height: 85%;
+    float: left;
+    padding-top: 22px;
+    padding-left: 175px;
+}
+.q {font-weight: bolder;
+    color:white;
+    font-size: 11px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    
+    
+}
+.p{
+    color:darkblue;
+    font-weight: bolder;
+    font-style: oblique;
+    font-family: cursive;
+    font-size: 44px;
+    text-decoration:none;
+    padding-left: 181px;
+    padding-top: 2px;
+    text-decoration: none;
+}
+.sbtn
+{
+    font-weight: bolder;
+    color: black;
+    font-size: 11px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    background-color:darkblue; 
+    cursor:pointer;
+}
+.sbtn:hover{
+    background:white;
+}
+.content
+{
+    width:100%;
+    height:394px;
+    background-color: salmon;
+}
+.right {
+    float: left;
+    width: 50%;
+    height: 351px;
+    background-color: darkblue;
+    padding-left: 58px;
+    padding-top: 43px;
+}
+.left {
+    float: left;
+    width: 42%;
+    height: 394px;
+    background-color:darkblue;
+    margin-left: -501px;
+    padding-left: 50px;
+}
+.para
+{
+    font-weight: bolder;
+    color:darkgrey;
+    font-size: 27px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+    text-decoration: none;
+    
+}
+.details {
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
+.imag
+{
+    margin-left: 131px;
+}
+.footer
+{
+    width:100%;
+    height:22%;
+    background:black;
+    padding-top: 30px;
+}
+.Fq
+{font-weight: bolder;
+    color: white;
+    font-size: 11px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    padding-left: 45px;
+
+}

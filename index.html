@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ente Website</title>
+    
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+    <link rel="icon" href="data:image/png;base64,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"type="image/x-icon">
+    <link href="fb.css" type="text/css" rel="stylesheet">
+    <style>
+        td
+        {
+            padding:10px;
+            border: 20px;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="mainbody">
+        <div class="header">
+            <div class="logo"><a href="index.html" class="p">FACEBOOK</a></div>
+            <div class="login">
+                <table style="width:400px">
+                    <tr>
+                        <td><label class="q">Email or phone   </label></td>
+                        <td><label class="q">Password</label></td>
+                    </tr>
+                    <tr>
+                        
+                            <td><input class="q" type="text"></td>
+                            <td><input class="q" type="text"></td>
+                            <td><input class="sbtn" type="submit" value="login" margin="10px"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a class="q" href="fordot.html">Forgot password?</a> </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="content">
+            <div class="left"><p class="para">Welcome to the biggest social network<br> that connects people together</p>
+                <br>
+                <img class="imag" src="data:image/png;base64,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"alt="Image" height="202"width="218">
+            </div>
+            <div class="right">
+                <form id="SIGNUPFORM">
+                    
+                <input name="FN" type="text" placeholder="Full Name" >
+                <br>
+                <br>
+                <input name="UN" type="text" placeholder="User Name" >
+                <br>
+                <br>
+                <input name="phno" type="text" placeholder="Phone Number" required>
+                <br>
+                <br>
+                <input name="mail" type="email" placeholder="Email"required>
+                <br>
+                <br>
+                <label class="details">Date of Birth</label>
+                <br>
+                <select name="day" required >
+                    <option value="">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <select name="month" required>
+                    <option value=" ">Month</option>
+                    <option value="JAN">Jan</option>
+                    <option value="feb">Feb</option>
+                    <option value="MAR">Mar</option>
+                </select>
+                <select NAME="year" required>
+                    <option value=" ">Year</option>
+                    <option value="1996">1996</option>
+                    <option value="1997">1997</option>
+                    <option value="1998">1998</option>
+                </select>
+                <br>
+                <br>
+                <label class="details">Gender</label>
+                <br>
+                <label class="details">Male</label>
+                <input name="gen" type="radio" required>
+                <label class="details">Female</label>
+                <input name="gen" type="radio" required>
+                <label class="details">Others</label>
+                <input name="gen" type="radio" required>
+                <br>
+                <br>
+                <input type="checkbox">
+                <label class="details">I agree that the above information is correct</label>
+                <br>
+                <br>
+                <input class="sbtn" type="submit" value="Sign up">
+                </form>
+
+
+                
+            </div>
+        
+        </div>
+        <div class="footer">
+            <a class="Fq" href="fordot.html">ABOUT</a>
+            <a class="Fq" href="fordot.html">HELP</a>
+            <a class="Fq" href="fordot.html">PRESS</a>
+            <a class="Fq" href="fordot.html">API</a>
+            <a class="Fq" href="fordot.html">JOBS</a>
+            <a class="Fq" href="fordot.html">PRIVACY</a>
+            <a class="Fq" href="fordot.html">TERMS</a>
+            <a class="Fq" href="fordot.html">HASHTAGS</a>
+            <a class="Fq" href="fordot.html">LANGUAGES</a>
+
+        </div>
+    </div>
+</body>
+</html>
